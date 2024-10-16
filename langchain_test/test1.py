@@ -13,8 +13,8 @@ def get_chain():
         # model_id="benjamin/gerpt2",
         # model_id="benjamin/gerpt2-large",  # outputs grammatically correct German
         # model_id="ai-forever/mGPT",
-        # model_id="meta-llama/Llama-3.2-1B",  # need to register
-        model_id="meta-llama/Llama-3.2-3B",  # need to register
+        model_id="meta-llama/Llama-3.2-1B",  # need to register
+        # model_id="meta-llama/Llama-3.2-3B",  # need to register
         # model_id="utter-project/EuroLLM-1.7B",
         # model_id="utter-project/EuroLLM-1.7B-Instruct",
         task="text-generation",
