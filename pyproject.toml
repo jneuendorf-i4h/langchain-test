@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langchain-test"
+version = "0.1.0"
+description = ""
+authors = ["Jim Neuendorf <jim.neuendorf@i4h-tech.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.*"
+langchain = "^0.3.3"
+torch = "^2.4.1"
+transformers = "^4.45.2"
+langchain-huggingface = "^0.1.0"
+protobuf = "^5.28.2"
+langchain-ollama = "^0.2.0"
+sentencepiece = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
